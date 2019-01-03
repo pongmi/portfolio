@@ -1,93 +1,157 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
-    <title>Pong's Folio</title>
-    <style>
-        .contentArea{
-            width: 100%;
-            height: 100%;
-        }
-        .headerWrap{
-            width: 100%;
-            height: 60px;
-            border-bottom: 1px solid #252525;
-        }
-        .headerWrap .head_menubar ul{
-            margin-top: 30px;
-        }
-        .headerWrap .head_menubar li{
-            list-style: none;
-            display: inline-block;
-            margin-right: 15px;
-        }
-        .headerWrap .head_menubar li a{
-            text-decoration: none;
-            color: #000;
-        }
-        .pageNum1{
-            height: 550px;
-            background-color: bisque;
-            text-align: center;
-        }
-        .pageNum2{
-            height: 600px;
-            background-color: rgb(240, 224, 138);
-            text-align: center;
-        }
-        .pageNum3{
-            height: 600px;
-            background-color: rgb(158, 215, 248);
-            text-align: center;
-        }
-        h2{
-            margin: 0;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2018 Pentaport Rock Festival</title>
 </head>
+
 <body>
-    <div class="contentArea">
-        <div class="headerWrap">
-        <div class="head_menubar">
-            <ul>
-                <li><a href="">About me</a></li>
-                <li><a href="">Web publishing</a></li>
-                <li><a href="">Graphic design</a></li>
+    <div class="wrap">
+        <header>
+            <h2 class="logo"><img src="img/logo.png" alt="2018Pentaport logo"></h2>
+            <ul class="nav">
+                <li class="on"><a href="#">PROGRAM</a></li>
+                <li><a href="#">LINE UP</a></li>
+                <li><a href="#">DAY CPUNTER</a></li>
+                <li><a href="#">TIME TABLE</a></li>
+                <li><a href="#">TICKET&ADDRESS</a></li>
+                <li><a href="#">NOTICE</a></li>
             </ul>
-            
+        </header>
+        <!-- //header -->
+
+        <div class="mainImg">
+            <img src="" alt="">
         </div>
-         <!-- headMenubar end-->
-         </div>
-          <!-- headerWrap end-->
-        <div class="pageNum1">
-            <h2>About me area</h2>
-            <p>
-            주제> 펜타포트 락페스티벌 
-            라인업 / 티켓 / 콘텍 / 노티스 ->원페이지 <br><hr>
-<a href="http://www.songdobeer.com/songdo_html/">송도 맥주축제</a><br>
+        <!-- //mainImg -->
 
-
-<a href="http://pentaportrock.com/#2018">2018펜타포트락페스티벌</a><br>
-
-
-<a href="https://fireworksfestival.bulggot.co/history.jsp">불꽃축제</a><br>
-
-<a href="http://leisure-sports.kr/">레저스포츠페스티벌</a><br>
-
-<a href="https://event.bbangyatv.com/kmf2018/desktop/main.html">빵야티비축제</a><br>
-
-            </p>
+        <div class="dayChoice">
+            <h2><span class="txtLine"><img src="img/date.png" alt="Pentaport날짜"></span></h2>
+            <p>DAY를 선택해주세요</p>
+            <ul class="choiceImg">
+                <li><a href="#" class="on"><img src="" alt="혁오"></a></li>
+                <li><a href="#"><img src="" alt="자우림"></a></li>
+                <li><a href="#"><img src="" alt="MBV"></a></li>
+            </ul>
         </div>
-        <!-- pageNum1 end-->
-        <div class="pageNum2">
-                <h2>Web publishing area</h2>
+        <!-- //dayChoice -->
+
+        <div class="lineUp">
+            <h2><span class="txtLine">ALL LINE UP</span></h2>
+            <ul class="linup-contents">
+                <li>
+                    <img src="" alt="LIFE">
+                    <p>LIFE</p>
+                </li>
+                <li>
+                    <img src="" alt="혁오">
+                    <p>HYUCK OH</p>
+                </li>
+                <li>
+                    <img src="" alt="NIN">
+                    <p>NINE INCH NAILS</p>
+                </li>
+                <li>
+                    <img src="" alt="IAMNOT">
+                    <p>IAMNOT</p>
+                </li>
+                <li>
+                    <img src="" alt="자우림">
+                    <p>JAURIM</p>
+                </li>
+                <li>
+                    <img src="" alt="MARIANHILL">
+                    <p>MARIANHILL</p>
+                </li>
+            </ul>
+        </div>
+        <!-- //lineUp -->
+
+        <div class="dayCounter">
+            <h2><span class="txtLine"><img src="" alt="2018펜타포트아이콘"></span></h2>
+            <p>펜타포트 락페스티벌까지 남은 시간</p>
+
+            <div class="dot-circle days">DAYS</div>
+            <div class="dot-circle hours">HOURS</div>
+            <div class="dot-circle minutes">MINUTES</div>
+            <div class="dot-circle SEC">SEC</div>
+        </div>
+        <!-- //dayCounter -->
+
+        <div class="videoArea">
+            <div class="vid1"></div>
+            <div class="vid2"></div>
+            <div class="vid3"></div>
+        </div>
+        <!-- //videoArea -->
+
+        <div class="time-ticketArea">
+            <h2><span class="txtLine">TIME TABLE</span></h2>
+            <ul class="timeaTable">
+                <li><img src="" alt="0810타임테이블"></li>
+                <li><img src="" alt="0811타임테이블"></li>
+                <li><img src="" alt="0812타임테이블"></li>
+            </ul>
+
+            <h2><span class="txtLine">TICKET & ADDRESS</span></h2>
+            <ul class="ticketAdd">
+                <li>
+                    <div class="ta-boxHead ticket">
+                        <h2>PENTAPORT TICKET</h2>
+                        <p>티켓예매</p>
+                    </div>
+                    <div class="ta-boxCont">
+                        <p><a href="#">인터파크티켓</a></p>
+                        <p><a href="#">하나티켓</a></p>
+                        <p><a href="#">네이버예약</a></p>
+                        <p><a href="#">쿠팡</a></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="ta-boxHead address">
+                        <h2>ADDRESS</h2>
+                        <p>오시는 방법</p>
+                    </div>
+                    <div class="ta-boxCont">
+                        <p><img src="" alt="주소지도"></p>
+                        <p><a href="#">VIEW LARGE MAP</a></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="ta-boxHead shuttle">
+                        <h2>SHUTTLE BUS</h2>
+                        <p>셔틀버스</p>
+                    </div>
+                    <div class="ta-boxCont">
+                        <p>꽃가마 셔틀</p>
+                        <p><a href="#">수도권</a></p>
+                        <p><a href="#">전국권</a></p>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+        <!-- //time-ticketArea -->
+
+        <div class="notice">
+            <h2><span class="txtLine">NOTICE</span></h2>
+            <div class="noticeBoard">
+                <h3>NOTICE</h3>
+
             </div>
-            <!-- pageNum2 end-->
-            <div class="pageNum3">
-                    <h2>Graphic design area</h2>
-                </div>
-                <!-- pageNum3 end-->
+
+        </div>
+        <!-- //notice -->
+
+        <footer>
+            
+        </footer>
+
     </div>
-    <!-- contentArea end-->
+    <!-- //wrap -->
 </body>
+
 </html>
